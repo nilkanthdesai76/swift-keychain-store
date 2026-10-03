@@ -1,5 +1,6 @@
 # KeychainStore 🔐
 
+[![CI](https://github.com/nilkanthdesai76/swift-keychain-store/actions/workflows/ci.yml/badge.svg)](https://github.com/nilkanthdesai76/swift-keychain-store/actions)
 A lightweight, thread-safe, and `Sendable` Swift wrapper for Apple's Keychain Services on iOS, macOS, watchOS, and tvOS with built-in `Codable` serialization and automatic upserting.
 
 [![Swift](https://img.shields.io/badge/Swift-5.9%20%7C%206.0-orange?style=flat-square&logo=swift)](https://swift.org)
