@@ -1,0 +1,57 @@
+<svg width="1000" height="280" viewBox="0 0 1000 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="kbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="kcard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="280" rx="16" fill="url(#kbg)" stroke="#374151"/>
+
+  <!-- Left: Client Swift App -->
+  <g transform="translate(60, 45)">
+    <rect width="250" height="190" rx="12" fill="url(#kcard)" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="125" y="32" font-family="-apple-system, sans-serif" font-size="16" fill="#38bdf8" font-weight="700" text-anchor="middle">📱 Swift Client App</text>
+    <line x1="20" y1="46" x2="230" y2="46" stroke="#374151"/>
+    <text x="25" y="75" font-family="monospace" font-size="12" fill="#cbd5e1">store.setString("token",</text>
+    <text x="45" y="95" font-family="monospace" font-size="12" fill="#cbd5e1">forKey: "auth")</text>
+    <text x="25" y="125" font-family="monospace" font-size="12" fill="#cbd5e1">store.getModel(User.self,</text>
+    <text x="45" y="145" font-family="monospace" font-size="12" fill="#cbd5e1">forKey: "session")</text>
+    <text x="25" y="170" font-family="-apple-system, sans-serif" font-size="11" fill="#4ade80">✓ Sendable &amp; Type-safe</text>
+  </g>
+
+  <!-- Flow Arrow 1 -->
+  <path d="M 320 140 L 400 140" stroke="#818cf8" stroke-width="3" stroke-dasharray="6 6"/>
+  <polygon points="405,140 395,134 395,146" fill="#818cf8"/>
+
+  <!-- Center: KeychainStore Engine -->
+  <g transform="translate(410, 45)">
+    <rect width="260" height="190" rx="12" fill="url(#kcard)" stroke="#818cf8" stroke-width="2"/>
+    <text x="130" y="32" font-family="-apple-system, sans-serif" font-size="16" fill="#818cf8" font-weight="700" text-anchor="middle">🔐 KeychainStore</text>
+    <line x1="20" y1="46" x2="240" y2="46" stroke="#374151"/>
+    <text x="25" y="75" font-family="-apple-system, sans-serif" font-size="12" fill="#cbd5e1">• Automatic Upsert on duplicate</text>
+    <text x="25" y="100" font-family="-apple-system, sans-serif" font-size="12" fill="#cbd5e1">• JSONEncoder / JSONDecoder</text>
+    <text x="25" y="125" font-family="-apple-system, sans-serif" font-size="12" fill="#cbd5e1">• Accessibility Attributes</text>
+    <text x="25" y="150" font-family="-apple-system, sans-serif" font-size="12" fill="#cbd5e1">• Shared App Groups support</text>
+    <text x="25" y="172" font-family="-apple-system, sans-serif" font-size="11" fill="#c084fc">Thread-safe concurrent access</text>
+  </g>
+
+  <!-- Flow Arrow 2 -->
+  <path d="M 680 140 L 760 140" stroke="#4ade80" stroke-width="3" stroke-dasharray="6 6"/>
+  <polygon points="765,140 755,134 755,146" fill="#4ade80"/>
+
+  <!-- Right: Apple Secure Enclave / Security.framework -->
+  <g transform="translate(770, 45)">
+    <rect width="180" height="190" rx="12" fill="url(#kcard)" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="90" y="32" font-family="-apple-system, sans-serif" font-size="16" fill="#4ade80" font-weight="700" text-anchor="middle"> Secure Enclave</text>
+    <line x1="20" y1="46" x2="160" y2="46" stroke="#374151"/>
+    <text x="25" y="80" font-family="-apple-system, sans-serif" font-size="12" fill="#cbd5e1">Hardware Encryption</text>
+    <text x="25" y="110" font-family="-apple-system, sans-serif" font-size="12" fill="#cbd5e1">kSecClassGenericPassword</text>
+    <text x="25" y="145" font-family="-apple-system, sans-serif" font-size="11" fill="#9ca3af">Zero Third-Party Bloat</text>
+  </g>
+</svg>
